@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request Received</title>
+    <style>
+      :root { color-scheme: dark; font-family: Arial, sans-serif; background: linear-gradient(135deg, #0f172a, #111827); color: #eff6ff; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; }
+      .box { width: min(780px, calc(100vw - 24px)); background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(148, 163, 184, 0.22); border-radius: 24px; padding: 24px; box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45); }
+      h1 { margin-top: 0; font-size: 1.8rem; }
+      p { color: #dbeafe; }
+      .chip { display: inline-block; border-radius: 999px; background: rgba(56, 189, 248, 0.12); color: #bae6fd; border: 1px solid rgba(56, 189, 248, 0.35); padding: 6px 10px; font-size: 0.88rem; }
+      a { color: #93c5fd; }
+    </style>
+  </head>
+  <body>
+    <main class="box">
+      <p class="chip">Request submitted</p>
+      <h1>Thanks, {{ full_name }}.</h1>
+      <p>Your replacement request has been recorded for <strong>{{ issue_label }}</strong>.</p>
+      <p>Card ending in <strong>{{ last4 }}</strong> and email <strong>{{ email }}</strong> were captured.</p>
+      <p>Issue details: {{ issue_detail }}</p>
+      <p>Notes: {{ notes }}</p>
+      <p><a href="/">Create another request</a></p>
+    </main>
+  </body>
+</html>

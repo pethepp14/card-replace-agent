@@ -1,0 +1,17 @@
+{
+  "user_input": "My card is stolen and the last 4 digits are 4821. I have a police report.",
+  "collected_info": {
+    "card_holder_name": "Alex Morgan",
+    "card_last4": "4821",
+    "incident_date": "2026-06-12",
+    "issue_details": "Card was stolen from my bag while traveling.",
+    "police_report": true,
+    "supporting_docs": [
+      "police_report.pdf"
+    ]
+  },
+  "conversation_history": [
+    "User reported a stolen card.",
+    "User provided the last four digits and confirmed a police report."
+  ]
+}

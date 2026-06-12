@@ -1,0 +1,15 @@
+{
+  "user_input": "My card is damaged and the magnetic strip is bent. Last 4 digits are 7744.",
+  "collected_info": {
+    "card_holder_name": "Jordan Lee",
+    "card_last4": "7744",
+    "incident_date": "2026-06-08",
+    "issue_details": "The card is bent and not accepted at point-of-sale terminals.",
+    "police_report": false,
+    "supporting_docs": []
+  },
+  "conversation_history": [
+    "User reported a damaged card.",
+    "User provided the last four digits."
+  ]
+}

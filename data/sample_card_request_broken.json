@@ -1,0 +1,15 @@
+{
+  "user_input": "My card is broken and the chip is not working. The last 4 digits are 9012.",
+  "collected_info": {
+    "card_holder_name": "Priya Shah",
+    "card_last4": "9012",
+    "incident_date": "2026-06-10",
+    "issue_details": "Chip is not reading at ATMs and stores.",
+    "police_report": false,
+    "supporting_docs": []
+  },
+  "conversation_history": [
+    "User reported a broken card.",
+    "User provided the last four digits."
+  ]
+}
